@@ -77,7 +77,7 @@ const Dashboard = () => {
 
         <SimpleGrid flex="1" gap="1rem" minChildWidth="320px" alignItems="flex-start">
           <Box
-            p="2rem"
+            p={["1.5rem", "2rem"]}
             bg="gray.800"
             borderRadius="2rem"
             pb="1rem"
@@ -87,12 +87,12 @@ const Dashboard = () => {
           </Box>
 
           <Box
-            p="2rem"
+            p={["1.5rem", "2rem"]}
             bg="gray.800"
             borderRadius="2rem"
             pb="1rem"
           >
-            <Text fontSize="lg" mb="1rem" >Taxa de abertura</Text>
+            <Text fontSize="lg" mb="1rem">Taxa de abertura</Text>
             <Chart type="area" height="160px" options={options as ApexOptions} series={series} />
           </Box>
         </SimpleGrid>
