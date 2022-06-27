@@ -82,7 +82,7 @@ const Dashboard = () => {
             borderRadius="2rem"
             pb="1rem"
           >
-            <Text fontSize="lg" mb="1rem" >Inscritos da semana</Text>
+            <Text fontSize="lg" mb="1rem">Inscritos da semana</Text>
             <Chart type="area" height="160px" options={options as ApexOptions} series={series} />
           </Box>
 
